@@ -1,0 +1,10 @@
+{
+  "flag_oct": 1,
+  "inspect_oct_angle_devi_max": 12,
+  "inspect_max_del_sig_angle": 22.5,
+  "inspect_dist_del_all": 1.0,
+  "inspect_dist_del_eq": 0.35,
+  "inspect_devi_linear_avrg": 20,
+  "inspect_devi_linear_max": 28,
+  "actural_rmsd_max": 0.3
+}
