@@ -1,0 +1,19 @@
+{
+  "mode": "terachem",
+  "scrpath": "./scr_template/",
+  "geofile": "optim.xyz",
+  "bofile": "bond_order.list",
+  "chargefile": "charge_mull.xls",
+  "gradfile": "grad.xyz",
+  "modelsfile": False,
+  "normfile": False,
+  "traindatafile": False,
+  "initxyzfile": "./scr_template/initgeo.xyz",
+  "modelname": "conv",
+  "dataname": False,
+  "normvecname": False,
+  "logfile": "molscontrol.log",
+  "resize": True,
+  "lse_cutoff": 0.3,
+  "debug": True
+}

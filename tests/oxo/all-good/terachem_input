@@ -1,0 +1,24 @@
+# file created with molSimplify
+levelshift yes
+levelshiftvala 0.25
+levelshiftvalb 0.25
+run minimize
+scf diis+a
+maxit 500
+coordinates initgeo.xyz
+gpus 1
+spinmult 1
+scrdir ./scr
+basis lacvps_ecp
+timings yes
+charge 0
+method b3lyp
+dispersion d3
+new_minimizer yes
+nbo yes
+guess generate
+### props ####
+ml_prop yes
+poptype mulliken
+bond_order_list yes
+end

@@ -1,0 +1,42 @@
+nohup: ignoring input
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-15
+OMP: Info #156: KMP_AFFINITY: 16 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 4 cores/pkg x 2 threads/core (8 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 1 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 1 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 0 core 2 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 0 core 2 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 4 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 0 core 4 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 0 core 5 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 0 core 5 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 1 core 1 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 1 core 1 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 1 core 2 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 2 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 1 core 4 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 1 core 4 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 1 core 5 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 5 thread 1
+OMP: Info #250: KMP_AFFINITY: pid 134855 tid 134855 thread 0 bound to OS proc set 0
+2020-07-26 16:12:50.918439: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-07-26 16:12:50.926716: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2600000000 Hz
+2020-07-26 16:12:50.926864: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55aa6c335390 executing computations on platform Host. Devices:
+2020-07-26 16:12:50.926880: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2020-07-26 16:12:50.957672: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+Using TensorFlow backend.
+WARNING:tensorflow:From /home/crduan/miniconda/envs/mols_py36/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/crduan/miniconda/envs/mols_py36/lib/python3.6/site-packages/keras/backend/tensorflow_backend.py:422: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+OMP: Info #250: KMP_AFFINITY: pid 134855 tid 134979 thread 1 bound to OS proc set 1
+pid:  134854
+molscontrol configure file:  configure.json
+ax_con:  [[46], [59]]
+eq_con:  [[2, 13, 6, 10]]
